@@ -47,7 +47,7 @@ for e in xrange(num_episodes):
     frame = 0
     while not done:
         frame += 1
-        #env.render()
+        env.render()
 
         action_list = []
 
